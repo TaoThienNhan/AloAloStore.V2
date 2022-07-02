@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    display: table;
+    margin: auto;
+}
+
+
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background: black;
+    color: white;
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+label{
+    font-weight: bold;
+}
+
+.checkbox{
+    font-weight: normal;
+}
+
+.checkbox_login{
+    
+    font-weight: normal;
+}
+
+.center{
+    color: #dd163b;
+    font-size:x-large;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.login_register{
+    width: 1000px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 90px;
+}
+
+.login_register > .img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+}
+
+.login_register > .form{
+    position: absolute;
+    left: 450px;
+    width: 450px;
+    height: 400px;  
+    margin-left: 100px;
+    
+}
+
+.form > form > div > input{
+    width: 300px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    outline: 0;
+}
+
+.button{
+    width: 300px;
+    height: 30px;
+    background-color: #dd163b;
+    color: white;
+    
+}
+
+.button:hover{
+    background-color: #dd163b;
+}
+
+a{
+    text-decoration: none;
+    color: #dd163b;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.back{
+    color: #dd163b;
+    margin-top: 10px;
+    margin-left: 280px;
+}

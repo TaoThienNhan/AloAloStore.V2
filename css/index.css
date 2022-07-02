@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+  
+body {
+    display: table-cell;
+    vertical-align: middle;
+    overflow-x: hidden;
+    font-family: 'Titillium Web';
+    background-color: black;
+}
+
+header{
+    width: 1280px;
+    height: 600px;
+}
+
+.menu {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.menu img{
+    width: 150px;
+}
+   
+ul {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    background-color: transparent;
+}
+   
+ul:hover li {
+    filter: blur(5px);
+}
+   
+li {
+    text-align: center;
+    width: fit-content;
+    display: inline-block;
+    transition: 0.5s ease;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+   
+ul li:hover {
+    font-size: 20px;
+    animation: bg 1s ease-in-out forwards;
+    border-radius: 10px;
+    filter: blur(0);
+    cursor: pointer;
+}
+   
+@keyframes bg {
+    0% {
+      background-color: transparent;
+      color: black;
+    }
+}
+
+header > .header-center {
+    position: relative;
+    top: 150px;
+    left: 360px;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 0px 0px 3px black;
+}
+
+header > .header-right {
+    float: right;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+header > .header-right > .login{
+    float: left;
+}
+
+header > .header-right > .login a{
+    margin-left: 5px;
+}
+
+header > .header-right .cart{
+    margin-left: 20px;
+}
+
+marquee{
+    position: relative;
+    top: 150px;
+    left: 360px;
+    width: 540px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+.container{
+    color: white;
+}
+
+.container > .content-news > .title{
+    display: flex;
+    margin-top: 20px;
+}
+
+.title > .bar-1{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.title > .bar-2{
+    width: 990px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.title > .name{
+    width: 160px;
+    font-size: 30px;
+}
+
+.container > .content-outstanding > .title{
+    width: 1280px;
+    display: flex;
+}
+
+.container > .content-outstanding > .title >.name{
+    font-size: 27px;
+}
+
+.container > .content-outstanding > .top-3{
+    display: flex;
+}
+
+.container > .content-outstanding > .top-3 > .box_left{
+    width: 60%;
+    height: 600px;
+}
+
+.container > .content-outstanding > .top-3 > .box_left > a{
+    text-decoration: none;
+    color: white;
+}
+
+.container > .content-outstanding > .top-3 > .box_left > a > .box{
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+}
+
+.container > .content-outstanding > .top-3 > .box_left > a > .box:hover{
+    background-color: #dd163b;
+}
+
+.container > .content-outstanding > .top-3 > .box_left > a > .box img{
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.container > .content-outstanding > .top-3 > .box_left > a > .box > .name{
+    font-size: 35px;
+    margin-left: 330px;
+
+}
+
+.container > .content-outstanding > .top-3 > .box_left > a >.box > .drt{
+    margin-top: 5px;
+    margin-left: 330px;
+}
+
+.container > .content-outstanding > .top-3 > .box_left > a > .box > .time{
+    margin-top: 55px;
+    margin-left: 330px;
+}
+
+.container > .content-outstanding > .top-3 > .box-right{
+    width: 40%;
+    height: 600px;
+}
+
+.container > .content-outstanding > .top-3 > .box-right > iframe{
+    width: 96%;
+    height: 600px;
+}
+
+
+/*footer*/
+
+img {
+    width: 20px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.footer1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 500px;
+    margin-top: -200px;
+    color: white;
+    line-height: 30px;
+}
+
+.footer3 {
+    width: 200px;
+    height: 200px;
+    margin-left: 750px;
+    margin-top: -200px;
+    color: white;
+    line-height: 30px;
+}
+
+.footer4 {
+    width: 200px;
+    height: 200px;
+    margin-left: 1000px;
+    margin-top: -220px;
+    color: white;
+    line-height: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer5 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer5> {
+    line-height: 1px;
+}
+
+

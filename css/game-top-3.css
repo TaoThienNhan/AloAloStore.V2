@@ -1,0 +1,32 @@
+img{
+    width: 480px;
+    border-radius: 5px;
+}
+
+.name{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.drt{
+    text-align: justify;
+    color: white;
+    margin-bottom: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    float: left;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.time{
+    margin-left: 380px;
+    color: white;
+}

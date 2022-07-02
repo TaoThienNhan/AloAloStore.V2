@@ -1,0 +1,121 @@
+.container > .item-box{
+    width: 1280px;
+    height: 1350px;
+    margin-top: 20px;
+}
+
+.container > .item-box > .box{
+    width: 30%;
+    height: 290px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+
+}
+
+.container > .item-box > .box > img{
+    width: 380px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.container > .item-box > .box > .name{
+    font-size: 30px;
+}
+
+.container > .item-box > .box > .category{
+    font-size: 15px;
+}
+
+.container > .item-box > .box > .category > span{
+    color: red;
+    font-style: italic;
+}
+
+.container > .item-box > .box >  button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid rgb(45, 45, 45);
+    border-radius: 5px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: none;
+}
+
+.container > .item-box > .box:hover >  button{
+    display: block;
+}
+
+.container > .item-box > .box >  button:hover{
+    background-color: rgb(97, 97, 97);
+}
+
+.container > .item-box > .box > .rate{
+    width: 180px;
+    height: 40px;
+    margin-left: 170px;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid rgb(45, 45, 45);
+    border-radius: 5px;
+    padding-top: 7px;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+    font-weight: bold;
+}
+
+.container > .item-box > .box:hover > .rate{
+    display: block;
+}
+
+.container > .item-box > .box > .rate span i{
+    color: yellow;
+    margin-left: 3px;
+}
+
+.container > .lbox-game{
+    width: 1280px;
+    height: 850px;
+}
+
+.container > .lbox-game > .title{
+    display: flex;
+}
+
+.container > .lbox-game  > .top{
+    width: 1280px;
+    height: 500px;
+    padding: 10px;
+}
+
+.container > .lbox-game  > .top > .main img{
+    width: 820px;
+    height: 490px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container > .lbox-game > .top > .p-A img{
+    width: 400px;
+    height: 235px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.container > .lbox-game > .bottom{
+    width: 1280px;
+    display: flex;
+}
+
+.container > .lbox-game > .bottom > .p-B img{
+    width: 396px;
+    height: 220px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
