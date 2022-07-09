@@ -1,2 +1,9 @@
 # AloAloStore.V2
-This is a website created during the learning phase
+* Name: AloAlo Store Vesrion 1. 
+* Author: Tào Thiện Nhân (www.taothiennhan.tk, fb.com/taothiennhan).
+* Type: software, games.
+* Web created during studying at FPT Polytechnic (Assignment Final, (subject: web design, HTML5 & CSS3))
+* Copyright to Tào Thiện Nhân (www.taothiennhan.tk)
+
+
+
